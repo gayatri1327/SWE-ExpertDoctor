@@ -38,9 +38,8 @@ ML Engine	Scikit-learn SVM Classifier
 Database	localStorage, CSV datasets
 PDF Generator	FPDF Library
 Security	JWT, Input Sanitization
-
 📂 Project Structure
-
+Copy
 SWE-ExpertDoctor/
 ├── static/
 │   ├── css/              # Style sheets
@@ -59,22 +58,26 @@ SWE-ExpertDoctor/
 │   └── svc.pkl          # Trained SVM model
 ├── requirements.txt     # Dependencies
 └── main.py              # Flask entry point
-
 🔗 API Endpoints
 Endpoint	Method	Description
 /predict	POST	Disease prediction from symptoms
 /search_hospitals	GET	Hospital search by pincode
 /generate_pdf	POST	Generate PDF prescription
 /pincode	GET	Validate Indian pincodes
-
 📊 Machine Learning
 SVM Classifier (Accuracy: 97%)
+
+python
+Copy
 # Prediction workflow
 symptoms = ["itching", "skin_rash"]
 input_vector = create_feature_vector(symptoms)  # 132-dimension vector
 prediction = svc_model.predict([input_vector])
 📸 Screenshots
-![image](https://github.com/user-attachments/assets/af3c8e88-68b7-42cd-8b66-cfaf10b55fa2)
+Feature	Preview
+Symptom Input	Symptom Input
+Prescription	Prescription
+Medical Records	Records
 🤝 Contributing
 Fork the repository
 
@@ -85,9 +88,12 @@ Commit changes: git commit -m 'Add new feature'
 Push to branch: git push origin feature/new-feature
 
 Open Pull Request
+
+📜 License
+Distributed under MIT License - see LICENSE file
+
 📧 Contact
 Gayatri Nutubilli
 📧 gayatrinutubilli@gmail.com
-🔗 LinkedIn Profilea
-
+🔗 LinkedIn Profile
 

@@ -4,7 +4,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.0.1-green)](https://flask.palletsprojects.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-red)](LICENSE)
 
 🌐 **Live Demo**: [Expert Doctor Live](https://expert-doctor.herokuapp.com) | 💻 **GitHub**: [github.com/gayatri1327/SWE-ExpertDoctor](https://github.com/gayatri1327/SWE-ExpertDoctor)
 
